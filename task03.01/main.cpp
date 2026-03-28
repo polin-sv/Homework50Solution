@@ -14,7 +14,7 @@ int main() {
 	cout << "input your number: ";
 	cin >> number;
 
-	cout << find_max_digit(number);
+	cout << "max digit is " << find_max_digit(number);
 
 	return 0;
 }
